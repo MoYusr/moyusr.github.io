@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: url(images/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.blog {
+    position: absolute;
+    top: 12%;
+    left: 18%;
+}
+
+.footer-text {
+    position: fixed;
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: medium;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 49);
+    bottom: 3%;
+    right: 2%;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 2em;
+    margin-left: 6em;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px transparent;
+    border-radius: 15px;
+}
