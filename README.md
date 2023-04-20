@@ -2,6 +2,8 @@
 
 This is the code for the travel blog website.
 
+The home page html is named 'index.html' and it's css is 'style.css'.
+
 I used HTML and CSS to create the website. I'm still learning web developement. I plan on using ReactJS and Tailwind CSS as a replacement in the future but for now
 these 2 languages will do.
 
